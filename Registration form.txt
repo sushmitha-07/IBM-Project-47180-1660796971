@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+  <title>Registrartion form</title>
+  </head>
+	<body>
+	<div id="main">
+	<div class="h-tag">
+	<h2>CREATE YOUR ACCOUNT</h2>
+	</div>
+	<!-- create account div -->
+	<div class="login">
+	<table cellspacing="2" align="left" cellpadding="8" border="0">
+	<tr>
+	<td align="left">Enter Name :</td>
+	<td><input type="text" placeholder="Enter user here" class="tb" /></td>
+	</tr>
+	<tr>
+	<td align="left">Enter Email ID :</td>
+	<td><input type="text" placeholder="Enter Email ID here" class="tb" /></td>
+	</tr>
+	<tr>
+	<td align="left">Enter Phone Number:</td>
+	<td><input type="text" placeholder="Enter Phone Number here" class="tb" /></td>
+	</tr>
+        <tr>
+	<td align="left">Enter City:</td>
+	<td><input type="text" placeholder="Enter City name" class="tb" /></td>
+	</tr>
+	<tr>
+	<td align="left">Enter State:</td>
+	<td><input type="text" placeholder="Enter State " class="tb" /></td>
+	</tr>
+	<tr>
+	<td align="left">Enter Country :</td>
+	<td><input type="text" placeholder="Enter Country Name" class="tb" /></td>
+	</tr>
+	<tr>
+	<td></td>
+	<td>
+	<input type="reset" value="Clear Form" id="res" class="btn" />
+	<input type="submit" value="Create Account" class="btn" /></td>
+	</tr>
+ </table>
+ </div>
+ </div>
+ </body>
+ </html>
